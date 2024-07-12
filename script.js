@@ -57,7 +57,7 @@ countBtn.addEventListener("click", () => {
 
 const clearContainer = () => {
     containerDiv.innerHTML = ``;
-    countBtnClicked = 0;
+    countBtnClicked = 1;
 };
 
 clearBtn.addEventListener("click", clearContainer);
